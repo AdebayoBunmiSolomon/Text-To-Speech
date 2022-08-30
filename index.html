@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review Project</title>
+    <link rel="stylesheet" href="Styling/index.css" />
+    <link rel="stylesheet" href="Bs/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Fonts/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="Fonts/css/all.css" />
+  </head>
+
+  <body>
+    <div id="info-text">
+      <h3><i>Text to speech system...</i></h3>
+    </div>
+    <div class="container" id="main-div">
+      <div class="container text-center" id="microphone-div">
+        <h1><i class="fas fa fa-microphone text-primary"></i></h1>
+      </div>
+      <div class="container text-center mt-3" id="option-div">
+        <div class="container-fluid mt-5 text-center">
+          <h4 class="text-secondary">Type and Select Voice:</h4>
+          <textarea
+            id="txtInput"
+            class="form-control"
+            rows="4"
+            cols="50"
+            placeholder="type here..."
+          >
+          </textarea>
+          <select
+            name=""
+            id="voiceList"
+            class="form-select mt-3"
+            aria-label="Default select example"
+          ></select>
+        </div>
+      </div>
+      <div class="container-fluid text-center mt-2">
+        <button id="btnSpeak" class="btn btn-primary" name="speak">
+          Speak
+          <i class="fas fa-volume-up"></i>
+        </button>
+        <button id="btnPause" class="btn btn-secondary" name="pause">
+          <i class="fa-solid fa-pause"></i>
+        </button>
+        <button id="btnCancel" class="btn btn-danger" name="cancel">
+          Cancel <i class="fa fa-times-circle"></i>
+        </button>
+      </div>
+    </div>
+  </body>
+
+  <script src="Js/index.js"></script>
+</html>

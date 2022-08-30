@@ -1,0 +1,23 @@
+body{
+    background-color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+*{
+    box-sizing: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+#option-div{
+    border: solid 2px grey;
+    height: 300px;
+}
+
+#main-div{
+    margin-top: 10%;
+}
+
+#info-text{
+    color: grey;
+}
